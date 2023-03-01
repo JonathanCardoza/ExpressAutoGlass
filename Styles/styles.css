@@ -54,7 +54,7 @@ ul li {
 
 ul li:hover {
   transform: scale(1.1);
-  transition: 0.3s;
+  transition: 0.03s;
 }
 
 #hamburger-icon {
@@ -126,3 +126,14 @@ div#greeting {
   display: flex;
   margin-left: 20px;
 }
+
+div.column ul {
+display: inline-block;
+margin-left: -15px;
+}
+
+div.column li:hover {
+  transform: none;
+  transition: none;
+}
+
