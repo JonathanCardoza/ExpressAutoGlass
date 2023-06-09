@@ -10,6 +10,9 @@ body {
   background-color: #353836;
   color: white;
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum height to make the footer stick to the bottom */
 }
 
 header a {
@@ -119,17 +122,17 @@ ul li:hover {
 div.column {
   margin-left: 20px;
   display: flex;
-  width:90%;
-
+  width: 90%;
 }
+
 div#greeting {
   display: flex;
   margin-left: 20px;
 }
 
 div.column ul {
-display: inline-block;
-margin-left: -15px;
+  display: inline-block;
+  margin-left: -15px;
 }
 
 div.column li:hover {
@@ -137,3 +140,11 @@ div.column li:hover {
   transition: none;
 }
 
+footer {
+  margin-top: auto;
+  background-color: #1d1f1d;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: x-small;
+}
