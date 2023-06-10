@@ -1,10 +1,11 @@
-a {
+.header a {
   color: #000;
 }
 
 /* header */
 
 .header {
+  line-height: 1.2;
   margin: 0;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -25,6 +26,7 @@ a {
   display: block;
   padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
+  font-size: 1.1em;
   text-decoration: none;
 }
 
