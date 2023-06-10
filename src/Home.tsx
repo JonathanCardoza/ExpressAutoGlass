@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Header } from './modules'
 
-export function App() {
+export function Home() {
   const [count, setCount] = useState(0)
 
   return (
