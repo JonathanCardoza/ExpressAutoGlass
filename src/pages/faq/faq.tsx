@@ -1,8 +1,9 @@
 import React from "react";
+import './styles.css'
 
 export function Faq() {
     
-        return(<div>
+        return(<div className="faq">
             <h1>Faq</h1>
         </div>)
     }

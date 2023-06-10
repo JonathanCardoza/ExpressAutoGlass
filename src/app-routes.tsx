@@ -1,7 +1,6 @@
 import React from "react";
 import {Routes, Route, Navigate} from "react-router-dom";
-import { Home } from "./Home";
-import { Contact, Faq, Gallery } from "./pages";
+import { Contact, Faq, Gallery, Home } from "./pages";
 
 export function AppRoutes(): JSX.Element {
     return (
