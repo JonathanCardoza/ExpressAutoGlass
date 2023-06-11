@@ -1,16 +1,11 @@
-
-/* :root {
-  margin: 0;
-  padding: 0;
-
-} */
+:root {
+  overflow: hidden;
+}
 
 .app {
   display: flex;
   min-width: 100vw;
   min-height: 100vh;
-  /* margin-top: 23px; */
-  overflow: hidden;
 }
 
 body {
