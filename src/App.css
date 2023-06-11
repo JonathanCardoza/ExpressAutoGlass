@@ -1,9 +1,16 @@
 
+/* :root {
+  margin: 0;
+  padding: 0;
+
+} */
+
 .app {
   display: flex;
   min-width: 100vw;
   min-height: 100vh;
-  margin-top: 25px;
+  /* margin-top: 23px; */
+  overflow: hidden;
 }
 
 body {
