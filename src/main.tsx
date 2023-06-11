@@ -11,10 +11,8 @@ import './App.css'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Router>
-      <Header />
-    <AppRoutes/>
-    {/* <Home/> */}
-    {/* <Gallery/> */}
+    <Header />
+    <div className='app'><AppRoutes/></div>
     </Router>
   </React.StrictMode>,
 )

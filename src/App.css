@@ -1,4 +1,11 @@
 
+.app {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin-top: 25px;
+}
+
 body {
   margin: 0;
   color: black;
