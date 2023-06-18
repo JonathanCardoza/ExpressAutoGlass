@@ -3,11 +3,11 @@ import './styles.css'
 
 export function Faq() {
     
-        return(<div className="faq">
+      return(<div className="faq">
             <h1>Faq</h1>
             <div className="column">
-      <p>
-      <ul>
+        <p>
+        <ul>
         <li><strong>Q: What is the best method of contact?</strong></li>
         <li>A: Phone call (408-202-6700), since I spend an extent amount of time on the road.</li>  
         <li><strong>Q: Can I text you?</strong></li>
@@ -23,8 +23,9 @@ export function Faq() {
         <li>A: Yes, I work with insurance. Just call your insurance, submit a claim, and let your
           insurance know that you would like Express Auto Glass to do the work.</li>
         <li><strong>Q: My car has a lane departure warning system. Can you calibrate my lane departure warning system? </strong></li>
-      </ul>
-      </p>
-     </div>
-        </div>)
-    }
+        </ul>
+        </p>
+        </div>
+        </div>
+      )
+}

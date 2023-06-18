@@ -1,0 +1,15 @@
+.faq {
+  display: flex;
+  
+}
+
+.column {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
