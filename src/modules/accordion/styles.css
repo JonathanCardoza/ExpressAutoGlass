@@ -1,0 +1,18 @@
+.accordion-item {
+    max-width: 600px;
+    display: flex;
+    margin: 15px;
+}
+
+.accordion-button {
+    margin: 5px;
+    background-color: white;
+    color: #000;
+    border: #000 solid 1px;
+}
+
+.accordion-item {
+    margin: 5px;
+    background-color: white;
+    color: #000;
+}

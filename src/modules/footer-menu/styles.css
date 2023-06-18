@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  position: sticky;
+  color: #fafafa;
+  background: #151418;
+  bottom: 0px;
+  padding: 17px 0 18px 0;
+  border-top: 1px solid #000;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  justify-content: center;
+}
+
+footer a {
+  color: #fafafa;
+}
+
+footer a:hover {
+  color: #efefef;
+}
+
+/* responsive footer fix by Aalaap Ghag 
+This is where the magic happens */
+@media (max-width: 767px) {
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.footer-content {
+  max-width: 940px;
+}

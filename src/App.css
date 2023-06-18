@@ -3,10 +3,8 @@
 }
 
 .app {
-  display: flex;
   min-width: 100vw;
   min-height: 100vh;
-  /* justify-content: center; */
 }
 
 body {
@@ -14,5 +12,4 @@ body {
   color: black;
   font-family: Helvetica, sans-serif;
   background-color: #fafafa;
-
 }
