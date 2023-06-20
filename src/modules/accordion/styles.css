@@ -2,17 +2,44 @@
     max-width: 600px;
     display: flex;
     margin: 15px;
-}
-
-.accordion-button {
+  }
+  
+  .accordion-button {
     margin: 5px;
-    background-color: white;
-    color: #000;
+    background-color: rgba(32, 31, 31, 0.815);
+    color: white;
     border: #000 solid 1px;
-}
-
-.accordion-item {
+    position: relative;
+    padding-right: 20px; /* Adjust this value to control the arrow spacing */
+    transition: background-color 0.3s; /* Transition for background-color property */
+  }
+  
+  .accordion-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 6px; /* Adjust this value to position the arrow */
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent; /* Adjust this value to control the arrow size */
+    border-bottom: 5px solid transparent; /* Adjust this value to control the arrow size */
+    border-left: 5px solid white; /* Adjust this value to control the arrow size and color */
+    transform: translateY(-50%);
+    transition: transform 0.3s; /* Transition for transform property */
+  }
+  
+  .accordion-button:hover {
+    background-color: rgba(32, 31, 31, 0.7); /* Adjust this value for the hover background color */
+  }
+  
+  .accordion-button:hover::after {
+    transform: translateY(-50%) rotate(90deg); /* Adjust this value to control the arrow rotation on hover */
+    transition: transform 0.3s; /* Transition for transform property */
+  }
+  
+  .accordion-item {
     margin: 5px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     color: #000;
-}
+  }
+  

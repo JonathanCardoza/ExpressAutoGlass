@@ -5,8 +5,8 @@ export function Footer(): JSX.Element {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-title">Express Auto Glass</div>
-        <div className="footer-address">1234 Main St. Anytown, USA 12345</div>
-        <div className="footer-phone">555-555-5555</div>
+        <div className="footer-address">2464 El Camino Real Ste 145 Santa Clara, CA 95051</div>
+        <div className="footer-phone">408-202-6700</div>
       </div>
     </footer>
   );

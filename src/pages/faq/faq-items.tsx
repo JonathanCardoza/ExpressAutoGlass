@@ -19,7 +19,7 @@ export const faqItems: AccordionItem[] = [
   {
     title: "Where are you located?",
     content:
-      "Currently I do not have a physical location, since I am mobile. Some popular locations I work in are Santa Clara County, San Fracisco, and Gilroy area.",
+      "I do not have a physical location, since I am mobile. Some popular locations I work in are Santa Clara County, San Fracisco, and Gilroy area.",
   },
   {
     title: "Do you work with insurance?",
@@ -30,6 +30,6 @@ export const faqItems: AccordionItem[] = [
     title:
       "My car has a lane departure warning system. Can you calibrate my lane departure warning system?",
     content:
-      "Yes, I can calibrate your lane departure warning system. However, I do not have the equipment to calibrate your lane departure warning system. I can take your car to a shop that can calibrate your lane departure warning system.",
+      "Currently, I cannot calibrate the lane departure warning system. I am actively working to provide this service in the future.",
   },
 ];
