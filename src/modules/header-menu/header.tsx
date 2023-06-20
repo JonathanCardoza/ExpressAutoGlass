@@ -10,10 +10,6 @@ export function Header() {
         <Link to="/" className="logo">
           Express Auto Glass
         </Link>
-        {/* <input className="menu-btn" type="checkbox" id="menu-btn" /> */}
-        {/* <label className="menu-icon" htmlFor="menu-btn">
-          <span className="navicon"></span>
-        </label> */}
         <input type="checkbox" id="menu-toggle" />
         <label htmlFor="menu-toggle" className="menu-icon">
           &#9776;
