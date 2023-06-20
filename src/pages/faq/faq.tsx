@@ -1,8 +1,12 @@
 import "./styles.css";
 import { Accordion } from "../../modules";
 import { faqItems } from "./faq-items";
+import { useEffect } from "react";
 
 export function Faq(): JSX.Element {
+  useEffect(() => {
+    document.title = "Express Auto Glass | FAQ";
+  }, []);
   return (
     <div className="faq">
       <div className="faq-content">

@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import "./styles.css";
 
 export function Home(): JSX.Element {
+  useEffect(() => {
+    document.title = "Express Auto Glass";
+  }, []);
   const content = `Hello, I'm George, an expert in 
           car window replacements, with an impressive 41 years of hands-on
           experience. Over the course of my career, Ive encountered and
