@@ -32,3 +32,21 @@ This is where the magic happens */
 .footer-content {
   max-width: 940px;
 }
+
+.footer-title {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-address {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-phone {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+

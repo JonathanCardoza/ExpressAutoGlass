@@ -24,9 +24,12 @@ export function Home(): JSX.Element {
 
   return (
     <div className="home">
-      <h1>Introduction</h1>
+      <h2>Introduction</h2>
       <div className="intro">
         <p>{content}</p>
+      </div>
+      <div className="about us title">
+        
       </div>
     </div>
   );

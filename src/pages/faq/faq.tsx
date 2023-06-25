@@ -11,7 +11,7 @@ export function Faq(): JSX.Element {
     <div className="faq">
       <div className="faq-content">
         <div className="faq-title">
-          <h1>FAQ</h1>
+          <h2>FAQ</h2>
         </div>
         {faqItems.map((item, index) => (
           <Accordion
