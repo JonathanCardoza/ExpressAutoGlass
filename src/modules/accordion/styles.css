@@ -12,6 +12,7 @@
   position: relative;
   padding-right: 20px; /* Adjust this value to control the arrow spacing */
   transition: background-color 0.3s; /* Transition for background-color property */
+  margin-right: 20px;
 }
 
 .accordion-button:focus {
