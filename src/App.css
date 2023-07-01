@@ -1,0 +1,15 @@
+:root {
+  overflow: hidden;
+}
+
+.app {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  background-color: #fafafa;
+}
